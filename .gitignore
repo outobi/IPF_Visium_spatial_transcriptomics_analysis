@@ -1,0 +1,30 @@
+# Large biological data files
+data/*.h5ad
+data/*.h5
+data/*.loom
+
+# Raw spatial transcriptomics data
+data/raw/
+data/filtered_feature_bc_matrix/
+data/spatial/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Jupyter / IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.log
+
+# Local environments
+.env
+.venv/
+venv/
