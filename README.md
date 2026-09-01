@@ -1,6 +1,6 @@
 # Spatial Niche Dissection in IPF Visium Data
 
-This repository demonstrates downstream spatial transcriptomics analysis of a processed human idiopathic pulmonary fibrosis (IPF) Visium dataset.
+This repository demonstrates downstream spatial transcriptomics analysis of a processed human idiopathic pulmonary fibrosis (IPF) 10X Genomics Visium dataset.
 
 Rather than reproducing the full preprocessing workflow, the analysis starts from a processed `AnnData` object containing spatial gene expression, scVI embeddings, cell2location-derived cell abundances, pathway activity scores, and NMF-defined tissue niches.
 
@@ -11,7 +11,7 @@ The analysis focuses on spatial organization around the fibrotic niche:
 1. Explore the processed Visium dataset and existing annotations.
 2. Examine cell2location-derived cell-type abundances and NMF-defined tissue niches.
 3. Characterize cell, gene, and pathway gradients around fibrotic niches using Visium lattice distance.
-4. Separate local fibrotic compositional state from spatial proximity to the fibrotic niche.
+4. Separate local fibrotic compositional state (fibrotic niche score in each spot) from spatial proximity to the fibrotic niche.
 5. Test whether gene/pathway associations with fibrotic composition depend on local spatial context.
 
 ## Repository structure
